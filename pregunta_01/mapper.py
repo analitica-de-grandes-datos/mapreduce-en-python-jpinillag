@@ -1,18 +1,12 @@
 #
 # >>> Escriba el codigo del mapper a partir de este punto <<<
 #
-import csv
 import sys
 
-def separar_depurar(x):
-    return(x.split(sep=',')[2])
 
-ruta_archivo=sys.stdin
-archivo_leido=[]
-with open(ruta_archivo,"rt") as archivo:
-    for line in archivo:
-        archivo_leido.append(line)
-        
-sys.stdout.write(list(map(separar_depurar,archivo_leido)))
+for fila in sys.stdin:
+  fila_separada = fila.split(",")
+  credit_history = fila_separada[2]
+  sys.stdout.write(credit_history+"\n")
 
 
