@@ -9,7 +9,7 @@ def separar_depurar(x):
 
 def map_pregunta1():
     
-    ruta_archivo="C:/Users/Open/Desktop/Universidad/mapreduce-en-python-jpinillag/pregunta_01/credit.csv"
+    ruta_archivo="credit.csv"
     archivo_leido=[]
     with open(ruta_archivo,"rt") as archivo:
         for line in archivo:
