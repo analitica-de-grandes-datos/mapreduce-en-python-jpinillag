@@ -7,5 +7,7 @@ def conteo(inicial, siguiente):
     inicial[siguiente] = inicial.get(siguiente, 0) + 1
     return inicial
  
-def reducer_pregunta1(data):
-  return reduce(conteo,data,{})
+data=sys.stdin
+
+sys.stdout.write(reduce(conteo,data,{})) 
+
