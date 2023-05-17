@@ -12,8 +12,9 @@ for credit_history in sys.stdin:
     diccionario_conteo[credit_history] = 1
     
 for clave in diccionario_conteo.keys():
-  clave_sin_espacios  = clave .strip()
-  linea =  clave_sin_espacios  + str(diccionario_conteo[clave])
+  clave_edit=clave.strip()
+  string_valor=str(diccionario_conteo[clave])
+  linea =  clave_edit  + "\t" + string_valor + "\n"
   sys.stdout.write(linea)  
 
 
