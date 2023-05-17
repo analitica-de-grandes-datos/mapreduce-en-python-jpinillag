@@ -6,6 +6,6 @@ import sys
 
 for fila in sys.stdin:
   fila_separada=fila.split(",")
-  print(fila_separada[2]+"\n")
+  print(fila_separada[2])
 
 
