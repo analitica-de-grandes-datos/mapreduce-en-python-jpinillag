@@ -14,6 +14,6 @@ for historia_credito in sys.stdin:
 for clave in diccionario_conteo.keys():
   clave_edit=clave.strip()
   string_valor=str(diccionario_conteo[clave])
-  print(clave_edit  + "\t" + string_valor + "\n")  
+  print(clave_edit  + "\t" + string_valor)  
 
 
