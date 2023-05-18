@@ -12,4 +12,4 @@ for letra in sys.stdin:
     diccionario_conteo[letra] = 1
     
 for clave in diccionario_conteo.keys(): 
-  print(clave.replace("\n","") + "\t"+str(diccionario_conteo[clave]))
+  print(clave.replace("\n","") + ","+str(diccionario_conteo[clave]))
