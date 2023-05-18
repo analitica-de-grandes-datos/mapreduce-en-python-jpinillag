@@ -13,4 +13,4 @@ for fila in sys.stdin:
 
 
 for registro in list:
-  sys.stdout.write(registro[0] + "\t" + registro[1]+ "\t" + str(registro[2])+"\n") 
+  sys.stdout.write(registro[0] + "   " + registro[1]+ "   " + str(registro[2])+"\n") 
