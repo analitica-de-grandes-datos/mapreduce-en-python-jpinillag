@@ -16,6 +16,6 @@ for linea in sys.stdin:
     diccionario_suma[linea_separada[0]]=int(linea_separada[1])
     
 for clave in diccionario_conteo.keys():
-  suma=str(diccionario_suma[clave])
+  suma=str(float(diccionario_suma[clave]))
   promedio=str(diccionario_suma[clave]/diccionario_conteo[clave])
   sys.stdout.write(clave+"\t"+suma+"\t"+promedio+"\n")
