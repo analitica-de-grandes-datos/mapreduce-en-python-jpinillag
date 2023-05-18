@@ -18,4 +18,4 @@ for linea in sys.stdin:
 for clave in diccionario_conteo.keys():
   suma=str(diccionario_suma[clave])
   promedio=str(diccionario_suma[clave]/diccionario_conteo[clave])
-  sys.stdout.write(clave+"	"+suma+"	"+promedio+"\n")
+  sys.stdout.write(clave+"\t"+suma+"\t"+promedio+"\n")
